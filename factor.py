@@ -1,7 +1,7 @@
 number=int(input("Enter a number to find its factors:"))
 i=1
 factor=[]
-while i &lt;= number:
+while i <= number:
   if number % i == 0:
     factor.append(i)
   i += 1
