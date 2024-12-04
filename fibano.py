@@ -1,6 +1,6 @@
 num=int(input("Enter a number of terms:"))
 a,b=0,1
-if(num&lt;=0):
+if(num<=0):
 print("Enter a positive number")
 else:
 print("Fibanocci series:")
